@@ -15,4 +15,7 @@ class Solution:
         self.get_subsets(nums, 0, n-1, res, temp)
         return res
 
+        # Time Complexity: O(n * 2^n).
+
+
 # https://leetcode.com/problems/subsets/
